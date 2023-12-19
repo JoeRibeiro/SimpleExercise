@@ -1,11 +1,8 @@
-# Plankton size exercise for recruitment reference 324261
+Before running the python script planktonsize.py please create a new python environment named "envpy3". All packages should be available on the conda-forge channel and so can be installed with conda:
 
-There are ten photographs of plankton in the directory `data/raw`.
-Write a program or script to sort the animals by approximate
-size. Please email your script or program along with a list of the
-images in animal size order, to resourcing@cefas.co.uk at least 24
-hours prior to your interview. Please include the above reference
-number in your email title.
+	conda create --name envpy3 python=3.8 numpy=1.19.5 imutils=0.5.4
 
-Please use your judgement as far as possible, but if you do require
-any clarification, please add an issue to this GitHub repository.
+
+After navigating to the directory into which this repository has been unpacked, please run planktonsize.py within this environment, for example in miniforge prompt:
+	cd C:\Users\JR13\OneDrive - CEFAS\My onedrive documents\SimpleExercise
+	conda activate envpy3 & python planktonsize.py
